@@ -192,11 +192,11 @@
 6.2		al		al		DERIV	_		1		_		_		_		_
 7		transition		_		_		_		_		_		_		_		_
 7.1		transit	transit	ROOT		_		0		_		_		_		_
-7.2		ion		ion		DERIV	_		1		_		_		_		_
+7.2		ion		ion		DERIV	_		1		_		_		_		nom.1=Yes
 8		is		_		_		_		_		_		_		_		_
 8.1		is		is		ROOT		_		0		_		_		_		_
 9		unprecedented	_		_		_		_		_		_		_		_
-9.1		un		un		DERIV	_		2		_		_		_		_
+9.1		un		un		DERIV	_		2		_		_		_		neg.1=Yes
 9.2?		precedent		precedent		ROOT		_		0		_		_		_		_
 9.3		ed		ed		INFL		_		1		_		_		_		_
 10		in		_		_		_		_		_		_		_		_
@@ -213,7 +213,7 @@
 15.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
 16		peaceful	_		_		_		_		_		_		_		_
 16.1		peace	peace	ROOT		_		0		_		_		_		_		
-16.2	?	ful		ful		DERIV	_		1		_		_		_		_		
+16.2	  ful		ful		DERIV	_		1		_		_		_		_		
 17		transition		_		_		_		_		_		_		_		_
 17.1		transit	transit	ROOT		_		0		_		_		_		_
 17.2		ion		ion		DERIV	_		1		_		_		_		_
@@ -325,16 +325,16 @@
 10.2		ing		ing		INFL		_		1		_		_		_		_
 11		immigration		_		_		_		_		_		_		_		_
 11.1		immigrat	immigrate		ROOT		_		0		_		_		_		_
-11.2		ion
+11.2		ion   ion   DERIV   _   1   _   _   _   nom.1=Yes
 12		,		_		_		_		_		_		_		_		_
 12.1		,		_		_		_		_		_		_		_		_
 13		the		_		_		_		_		_		_		_		_
-13.1		the		the		ROOT		_		0		_		_		_		_
+13.1		the		the		ROOT		_		0		_		_		_		def.1=Yes
 14		GOP		_		_		_		_		_		_		_		_
 14.1		GDP		GDP		ROOT		_		0		_		_		_		_
 15		nominee	_		_		_		_		_		_		_		_
-15.1		nomi	n	nominate	ROOT		_		0		_		_		_		nom.1=Yes
-15.2		ee		ee		DERIV	_		1		_		_		_		_
+15.1		nomi	n	nominate	ROOT		_		0		_		_		_		_
+15.2		ee		ee		DERIV	_		1		_		_		_		nom.1=Yes
 16		proclaimed		_		_		_		_		_		_		_		_
 16.1		proclaim	procalim	ROOT		_		0		_		_		_		_
 16.2		ed		ed		INFL		_		1		_		_		_		past.1=Yes
@@ -425,7 +425,7 @@
 18.1		republic		republic		ROOT		_		0		_		_		_		_
 19		rests		_		_		_		_		_		_		_		_
 19.1		rest		rest		ROOT		_		0		_		_		_		_
-10.2		s		s		INFL		_		1		_		_		_		npast.1=Yes
+10.2		s		s		INFL		_		1		_		_		_		pres.1=Yes|agree.1=Yes
 20		on		_		_		_		_		_		_		_		_
 20.1		on		on		ROOT		_		0		_		_		_		_
 21		your		_		_		_		_		_		_		_		_
@@ -451,13 +451,13 @@
 30		on		_		_		_		_		_		_		_		_
 30.1		on		on		ROOT		_		0		_		_		_		_
 31		a		_		_		_		_		_		_		_		_
-31.1		a		a		ROOT		_		0		_		_		_		_
+31.1		a		a		ROOT		_		0		_		_		_		ind.1=Yes
 32		sports		_		_		_		_		_		_		_		_
 32.1		sports		sports		ROOT		_		0		_		_		_		_
 33		field		_		_		_		_		_		_		_		_
 33.1		field		field		ROOT		_		0		_		_		_		_
 34		at		_		_		_		_		_		_		_		_
-34.1		at		at		ROOT		_		0		_		_		_		_
+34.1		at		at		ROOT		_		0		_		_		_		loc.1=Yes
 35		the		_		_		_		_		_		_		_		_
 35.1		the		the		ROOT		_		0		_		_		_		_
 36		University		_		_		_		_		_		_		_		_
@@ -490,7 +490,7 @@
 6.1		by		by		ROOT		_		0		_		_		_		_
 7		Clinton’s		_		_		_		_		_		_		_		_
 7.1		Clinton		Clinton		ROOT		_		0		_		_		_		_
-7.2		's		's		DERIV	
+7.2		's		's		DERIV   _   1   _   _   _   poss.1=Yes
 8		large		_		_		_		_		_		_		_		_
 8.1		large		large		ROOT		_		0		_		_		_		_
 9		bank		_		_		_		_		_		_		_		_
@@ -536,7 +536,7 @@
 13.1		it		it		ROOT		_		0		_		_		_		_
 13.2		’s		’s		DERIV		_		1		_		_		_		_
 14		unbelievable		_		_		_		_		_		_		_		_
-14.1		un		un		DERIV		_		2		_		_		_		_
+14.1		un		un		DERIV		_		2		_		_		_		neg.1=Yes
 14.2		believ		believe		ROOT		_		0
 14.3		able		able		DERIV		_		1		_		_		_		_
 15		.		_		_		_		_		_		_		_		_
@@ -545,11 +545,11 @@
 
 
 # sent_id = n01003007
-# text = 
+# text = $5,000 per person, the maximum allowed.
 1		$		_		_		_		_		_		_		_		_
 1.1		$		$		_		_		_		_		_		_		_
 2		5,000		_		_		_		_		_		_		_		_
-2.1		5,000		5,000		ROOT		_		0		_		_		_		_
+2.1		5,000		5,000		_		_		_		_		_		_		_
 3		per		_		_		_		_		_		_		_		_
 3.1		per		per		ROOT		_		0		_		_		_		_
 4		person		_		_		_		_		_		_		_		_
@@ -571,7 +571,7 @@
 # sent_id = n01003010
 # text = In early October, the transition team used the same venue to meet with technology lobbyists, inviting representatives from Uber, the Motion Picture Association of America, the Consumer Technology Association and other groups.
 1		In		_		_		_		_		_		_		_		_
-1.1		In		In		ROOT		_		0		_		_		_		_
+1.1		In		In		ROOT		_		0		_		_		_		loc.2=Yes
 2		early		_		_		_		_		_		_		_		_
 2.1		early		early		ROOT		_		0		_		_		_		_
 3		October		_		_		_		_		_		_		_		_
@@ -648,7 +648,7 @@
 35.1		other		other		ROOT		_		0		_		_		_		_
 36		groups		_		_		_		_		_		_		_		_
 36.1		group		group		ROOT		_		0		_		_		_		_
-36.2		s		s		INFL		_		1		_		_		_		_
+36.2		s		s		INFL		_		1		_		_		_		plur.1=Yes
 37		.		_		_		_		_		_		_		_		_
 37.1		.		.		_		_		_		_		_		_		_
 
